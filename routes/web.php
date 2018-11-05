@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-# 注释
-Route::any();
-
 //中间件
 Route::group(['middleware'=>['web']],function (){
     # 首页
