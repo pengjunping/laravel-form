@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::any('/git',function (){
+   return 'test git';
+});
+
 //中间件
 Route::group(['middleware'=>['web']],function (){
     # 首页
