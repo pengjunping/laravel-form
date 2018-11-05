@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 
 
+Route::any();
+
 //中间件
 Route::group(['middleware'=>['web']],function (){
     # 首页
