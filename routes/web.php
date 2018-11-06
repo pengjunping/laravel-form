@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::any('/git',function (){
-   return 'test git';
+   return 'test phpstorm push code to github';
 });
 
 //中间件
